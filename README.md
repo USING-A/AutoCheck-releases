@@ -6,7 +6,7 @@
 
 Edge / Chrome · 公司特别关注 · 查询变化 · 本地记录
 
-[下载安装](https://github.com/USING-A/AutoCheck-releases/releases) · [使用帮助](HELP.md) · [反馈问题](https://github.com/USING-A/AutoCheck-releases/issues)
+[下载安装](https://github.com/USING-A/AutoCheck-releases/releases) · [使用帮助](HELP.md) · [版本说明](RELEASE_NOTES.md) · [隐私说明](PRIVACY.md) · [反馈问题](https://github.com/USING-A/AutoCheck-releases/issues)
 
 </div>
 
@@ -16,7 +16,7 @@ AutoCheck 从你指定的收藏夹识别招聘入口，汇总能够可靠解析�
 
 ![公司列表、特别关注与岗位进度工作台](images/workspace.png)
 
-*实际 Edge 扩展操作截图，来自 1.2.6 隔离测试；公司与岗位为合成示例，不含真实求职信息。*
+*1.3.3 原运行包在隔离 Chrome 中的实际截图；公司与岗位为虚构示例，不含真实求职信息。*
 
 | 你想做什么 | 从哪里开始 |
 | --- | --- |
@@ -29,7 +29,7 @@ AutoCheck 从你指定的收藏夹识别招聘入口，汇总能够可靠解析�
 
 ## 三步开始
 
-1. 在[发行页](https://github.com/USING-A/AutoCheck-releases/releases)下载 `autocheck-1.2.9-beta.zip`，解压到固定位置。
+1. 从[1.3.10 内测发行页](https://github.com/USING-A/AutoCheck-releases/releases/tag/v1.3.10)获取 `autocheck-1.3.10-beta.zip` 和 SHA-256 校验文件，解压到固定位置。
 2. Edge 打开 `edge://extensions`，Chrome 打开 `chrome://extensions`。开启“开发者模式”，选择“加载解压缩的扩展”，选中本包直接包含 `manifest.json` 的 `extension` 文件夹。
 3. 固定并打开 AutoCheck，从欢迎页选择收藏夹或手动添加，然后按照工作台提示完成首次查询。
 
@@ -53,6 +53,6 @@ JSON 可用于完整恢复，恢复前请核对覆盖预览。CSV 用于查看�
 
 ## 内测范围
 
-当前为 **1.2.9 内测版**，采用手动加载。网站改版、登录状态及不同企业页面可能影响识别，重要状态请到官网核对；支持平台不等于其全部企业已验证。
+当前为 **1.3.10 内测版**，采用手动加载。本版修复海康威视可见志愿记录和投递意向当前状态的解析；等待处理保留未知，不把未来流程节点当作录用结果。公司列表保留岗位摘要，最近查询与阶段分布中的公司名可打开实际收藏链接；长目录支持独立滚动，处理登录后可直接重查。每日统计提供六指标、日期选择、图表/表格与CSV，未知值持续说明。网站改版、登录状态及不同企业页面可能影响识别，重要状态请到官网核对；支持平台不等于其全部企业已验证。
 
 本仓库提供封装发行、帮助与反馈，开发源码单独保留。浏览器商店发行尚未完成。
